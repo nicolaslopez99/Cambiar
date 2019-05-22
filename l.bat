@@ -1,8 +1,8 @@
 setlocal enabledelayedexpansion 
 
-if exist á do(
+if exist   do(
 	for %%a in (*.*) do ( set file=%%a 
-		ren "!file!" "!file:á=a!"
+		ren "!file!" "!file: =a!"
 		)
 	)
 if exist ‚ do(
